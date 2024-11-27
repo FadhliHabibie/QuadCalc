@@ -1071,8 +1071,8 @@ footer {
         width: 100%;
     }
     canvas {
-    width: 100%;
-    max-width: 400px;
+    width: 50%;
+    max-width: 200px;
     height: auto;
 }
 
