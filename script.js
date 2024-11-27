@@ -914,15 +914,4 @@ function isCloseToCurve(mouseX, mouseY, tolerance = 5) {
 }
 
 
-// Fungsi untuk menyesuaikan ukuran canvas
-function resizeCanvas() {
-    const canvas = document.getElementById('grafikCanvas');
-    const parentWidth = canvas.parentElement.offsetWidth;
 
-    canvas.width = parentWidth; // Sesuaikan lebar dengan elemen induk
-    canvas.height = parentWidth * 0.6; // Proporsi tinggi untuk layar kecil
-}
-
-// Panggil fungsi saat halaman dimuat dan saat jendela diubah ukurannya
-window.addEventListener('load', resizeCanvas);
-window.addEventListener('resize', resizeCanvas);
