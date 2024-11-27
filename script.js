@@ -914,4 +914,3 @@ function isCloseToCurve(mouseX, mouseY, tolerance = 5) {
 }
 
 
-
