@@ -1070,5 +1070,11 @@ footer {
     .member {
         width: 100%;
     }
+    canvas {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
+
 }
 
