@@ -1066,7 +1066,8 @@ footer {
         width: 100%;
     }
      canvas {
-        width: 200vw; /* Lebar 90% dari viewport */
+        width: 170vw; /* Lebar 90% dari viewport */
+        max-width: 300px;
         height: auto; /* Sesuaikan tinggi secara proporsional */
     }
 
