@@ -1025,3 +1025,50 @@ footer {
 .team {
     font-weight: bold;
 }
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    header {
+        padding: 20px 10px;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav a {
+        margin: 5px 0;
+    }
+
+    .solar-system {
+        width: 100vh;
+        height: 50vh;
+        top: 50%;
+        left: 50%;
+    }
+
+    .form-container2 {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 5px;
+    }
+
+    .form-container2 input, .button, #resetButton {
+        font-size: 1rem;
+        padding: 10px;
+        width: 100%;
+    }
+
+    .team-members {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .member {
+        width: 100%;
+    }
+}
+
