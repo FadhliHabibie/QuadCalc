@@ -849,6 +849,9 @@ canvas {
     border-radius: 8px;
     /* Sudut sedikit membulat */
     transition: transform 0.3s ease;
+    width: 100%;
+    max-width: 400px; 
+    height: auto;
 }
 
 canvas:hover {
